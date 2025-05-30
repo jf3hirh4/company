@@ -23,9 +23,9 @@ def remove_unmatched_images(folder_path :str):
             print(f"🗑️ 삭제됨: {img_path}")
 
 # 경로 설정
-train_folder = "data/obj_Train_data"
-val_folder = "data/obj_Validation_data"
+train_folder = "/home/choi/project_doje"
+
 
 # 실행
 remove_unmatched_images(train_folder)
-remove_unmatched_images(val_folder)
+

@@ -15,5 +15,5 @@ def zip_folder(folder_path, zip_path):
                 zipf.write(abs_path, arcname=rel_path)
     print(f"Zipped: {zip_path}")
     
-zip_folder("/home/choi/ai_hub/short_labels", "/home/choi/ai_hub/short_labels.zip")
-zip_folder("/home/choi/ai_hub/short_images", "/home/choi/ai_hub/short_images.zip")
+zip_folder("/home/choi/project_doje/zip2_images", "/home/choi/project_doje/zip2_images.zip")
+zip_folder("/home/choi/project_doje/zip2_labels", "/home/choi/project_doje/zip2_labels.zip")
